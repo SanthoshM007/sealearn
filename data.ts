@@ -5,7 +5,7 @@ export const allUsers: (User | Vendor)[] = [
   // User
   { id: 'u1', name: 'Raj Kumar', email: 'user@example.com', password: 'password', role: Role.USER, rank: 'Deck Cadet', profilePictureUrl: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=3387&auto=format&fit=crop', phone: '9876543210' },
   // Admin
-  { id: 'a1', name: 'Alex Johnson', email: 'admin@test.com', password: 'password', role: Role.ADMIN, profilePictureUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=3540&auto=format&fit=crop', phone: '+1 234 567 890' },
+  { id: 'a1', name: 'Alex Johnson', email: 'admin@example.com', password: 'password', role: Role.ADMIN, profilePictureUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=3540&auto=format&fit=crop', phone: '+1 234 567 890' },
   // Vendors
   { 
     id: 'v1', 
